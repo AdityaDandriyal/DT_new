@@ -15,7 +15,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: sailesh.g@gramener.com
+      - name: aditya.dandriyal@gramener.com
         run: |
           echo "This is a daily commit added by the GitHub Action" >> daily_commit.txt
           git config --global user.name "GitHub Actions"
